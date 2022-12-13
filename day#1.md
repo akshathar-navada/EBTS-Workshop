@@ -137,6 +137,41 @@ port 25 - Simple Mail Transfer Protocol (SMTP) used for email routing between ma
    computers, and the number of computers involved can range from just a couple of them to thousands or even more.
    
    
-   
+## NAT Network
+
+Network Address Translation (NAT) is a process in which one or more local IP address is translated into one or more Global IP address and vice versa in order to provide Internet access to the local hosts. Also, it does the translation of port numbers i.e. masks the port number of the host with another port number, in the packet that will be routed to the destination. It then makes the corresponding entries of IP address and port number in the NAT table. NAT generally operates on a router or firewall. 
+
+## MAC address
+
+A media access control address (MAC address) is a unique identifier assigned to a network interface controller (NIC) for use as a network address in communications
+within a network segment. This use is common in most IEEE 802 networking technologies, including Ethernet, Wi-Fi, and Bluetooth. Within the Open Systems 
+Interconnection (OSI) network model, MAC addresses are used in the medium access control protocol sublayer of the data link layer. As typically represented, MAC 
+addresses are recognizable as six groups of two hexadecimal digits, separated by hyphens, colons, or without a separator.
+
+## IPV4 and IPV6
+
+IPv4 and IPv6 are internet protocol version 4 and internet protocol version 6, IP version 6 is the new version of Internet Protocol, which is way better than IP 
+version 4 in terms of complexity and efficiency. 
+
+Difference Between IPv4 and IPv6: 
+
+|  IPv4	                                                                   |  IPv6                                                                               |
+| ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | 
+| IPv4 has a 32-bit address length	                                        | IPv6 has a 128-bit address length                                                   |
+| It Supports Manual and DHCP address configuration	                      | It supports Auto and renumbering address configuration                              |
+| In IPv4 end to end, connection integrity is Unachievable	                | In IPv6 end to end, connection integrity is Achievable                              |
+| It can generate 4.29×109 address space	                                  | Address space of IPv6 is quite large it can produce 3.4×1038 address space          |
+| The Security feature is dependent on application	                         | IPSEC is an inbuilt security feature in the IPv6 protocol                           |
+| Address representation of IPv4 is in decimal	                            | Address Representation of IPv6 is in hexadecimal                                    |
+| Fragmentation performed by Sender and forwarding routers	                | In IPv6 fragmentation performed only by the sender                                  |
+| In IPv4 checksum field is available	                                     | In IPv6 checksum field is not available                                             |
+| It has broadcast Message Transmission Scheme	                            | In IPv6 multicast and anycast message transmission scheme is available              |
+| In IPv4 Encryption and Authentication facility not provided	             | In IPv6 Encryption and Authentication are provided                                  |
+| IPv4 has a header of 20-60 bytes.	                                        | IPv6 has header of 40 bytes fixed                                                   |
+| IPv4 can be converted to IPv6	                                           | Not all IPv6 can be converted to IPv4                                               |
+| IPv4 consist of 4 fields which are separated by dot (.)	                | IPv6 consist of 8 fields, which are separated by colon (:)                          |
+| IPv4 supports VLSM(Variable Length subnet mask).	                         | IPv6 does not support VLSM.                                                         |
+
+
 
 
